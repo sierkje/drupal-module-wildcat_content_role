@@ -2,22 +2,9 @@ wildcat_content_role.settings:
   type: config_object
   label: 'Wildcat Content Role settings'
   mapping:
-    super_roles:
-      type: mapping
-      label: 'Special user roles managed by Wildcat Content Role'
-      mapping:
-        contributor:
-          type: string
-          label: 'ID of the contributor user role config entity'
-        editor:
-          type: string
-          label: 'ID of the editor user role config entity'
-        manager:
-          type: string
-          label: 'ID of the manager user role config entity'
-    non_dynamic_roles:
-      type: sequence
-      label: 'Non-dynamic user roles managed by Wildcat Content Role'
-      sequence:
-        type: string
-        label: 'ID of the user role config entity'
+    content_editor:
+      type: string
+      label: 'ID of the content editor user role'
+    content_manager:
+      type: string
+      label: 'ID of the content manager user role'

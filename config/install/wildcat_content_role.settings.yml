@@ -1,8 +1,2 @@
-super_roles:
-  contributor: wildcat_content_contributor
-  editor: wildcat_content_editor
-  manager: wildcat_content_manager
-non_dynamic_roles:
-  - wildcat_content_contributor
-  - wildcat_content_editor
-  - wildcat_content_manager
+content_editor: wildcat_content_editor
+content_manager: wildcat_content_manager
