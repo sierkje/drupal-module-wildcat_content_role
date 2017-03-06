@@ -1,0 +1,19 @@
+{
+  "name": "drupal/wildcat_content_role",
+  "description": "Provides content roles for Wildcat-flavored sites.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Sierk Beij",
+      "email": "sierk@cococollective.org"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-8.x-0.x": "0.0.x-dev"
+    }
+  }
+}

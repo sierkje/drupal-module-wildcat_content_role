@@ -1,0 +1,8 @@
+name: "Wildcat Content Role"
+type: module
+description: "Provides content roles for Wildcat-flavored sites."
+package: Wildcat
+core: 8.x
+dependencies:
+  - node
+  - user
