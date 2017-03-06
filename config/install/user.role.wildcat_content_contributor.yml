@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: wildcat_content_contributor
+label: 'Content contributor'
+weight: 38
+is_admin: false
+permissions: {  }

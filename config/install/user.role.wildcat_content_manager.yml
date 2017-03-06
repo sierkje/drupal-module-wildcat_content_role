@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: wildcat_content_manager
+label: 'Content manager'
+weight: 40
+is_admin: false
+permissions: {  }
